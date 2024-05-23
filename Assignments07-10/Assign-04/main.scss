@@ -1,0 +1,10 @@
+// SASS Code
+$number: 10;
+$color: red;
+$theme: light;
+
+.class {
+    @if not ($number > 5 and $color == "red" and $theme == "dark") {
+        color: $color;
+    }
+}
